@@ -1,0 +1,907 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="footer.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+   
+
+
+   
+            
+
+    <title>Gaming Shack</title>
+    <link rel = "icon" type = "image/png" href = "https://profilepicturesdp.com/wp-content/uploads/2018/06/awesome-gaming-profile-pictures-1.jpg">
+    <style>
+      body {
+        background-image: url("https://energyart.uk/images/backgrounds/rice-paper/ricepaper-black.jpg");
+        background-position: 50% 50%;
+        background-repeat: repeat;
+        width: 100%
+      }
+
+      .social-icons {
+          text-align: center;
+          }  
+        .social-icons li {
+          display:inline-block;
+          list-style-type:none;
+          -webkit-user-select:none;
+          -moz-user-select:none;
+          }
+        .social-icons li a {
+          border-bottom: none;
+          }
+        .social-icons li img {
+          width:50px;
+          height:50px;
+          margin-right: 20px;
+        }
+
+
+
+
+              
+
+                .footer{
+                  background: linear-gradient(to bottom, #6600cc 0%, #6699ff 100%);
+                }
+
+                /* The Modal (background) */
+                            .modal {
+                              display: none; /* Hidden by default */
+                              position: fixed; /* Stay in place */
+                              z-index: 1; /* Sit on top */
+                              left: 0;
+                              top: 0;
+                              width: 100%; /* Full width */
+                              height: 100%; /* Full height */
+                              overflow: auto; /* Enable scroll if needed */
+                              background-color: rgb(0,0,0); /* Fallback color */
+                              background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                              padding-top: 60px;
+                            }
+
+                            /* Modal Content/Box */
+                            .modal-content {
+                              background-color: #fefefe;
+                              margin: 5px auto; /* 15% from the top and centered */
+                              border: 1px solid #888;
+                              width: 30%;
+                              height:69%;
+                            }
+
+                            /* The Close Button */
+                            .close {
+                              /* Position it in the top right corner outside of the modal */
+                              position: absolute;
+                              right: 25px;
+                              top: 0; 
+                              color: #000;
+                              font-size: 35px;
+                              font-weight: bold;
+                            }
+
+                            /* Close button on hover */
+                            .close:hover,
+                            .close:focus {
+                              color: red;
+                              cursor: pointer;
+                            }
+
+                            /* Add Zoom Animation */
+                            .animate {
+                              -webkit-animation: animatezoom 0.6s;
+                              animation: animatezoom 0.6s
+                            }
+
+                            @-webkit-keyframes animatezoom {
+                              from {-webkit-transform: scale(0)} 
+                              to {-webkit-transform: scale(1)}
+                            }
+
+                            @keyframes animatezoom {
+                              from {transform: scale(0)} 
+                              to {transform: scale(1)}
+                            }
+
+                            .form-gap {
+                              padding-top: 70px;
+                              width: 90px;
+
+                          }
+
+                          .image-container {
+                              background-image: url("https://live.staticflickr.com/7151/6569347709_eec622f0b8_b.jpg"); /* The image used - important! */
+                              background-size: cover; 
+                              position: relative; /* Needed to position the cutout text in the middle of the image */
+                              height: 100px; /* Some height */
+                              width: 1200px;
+                              margin-left: 200px;
+                              border-radius: 4px;
+                            }
+
+                            .text {
+                              background-color: white;
+                              color: black;
+                              font-size: 3vw; /* Responsive font size */
+                              font-weight: bold;
+                              margin: 0 auto; /* Center the text container */
+                              padding: 1px;
+                              width: 30%;
+                              text-align: center; /* Center text */
+                              position: absolute; /* Position text */
+                              top: 50%; /* Position text in the middle */
+                              left: 50%; /* Position text in the middle */
+                              transform: translate(-50%, -50%); /* Position text in the middle */
+                              mix-blend-mode: screen; /* This makes the cutout text possible */
+                              border-radius: 5px;
+                            }
+
+
+
+                            /* Style the links inside the sidenav */
+                            #mySidenav a {
+                              position: absolute; /* Position them relative to the browser window */
+                              left: -200px; /* Position them outside of the screen */
+                              transition: 0.3s; /* Add transition on hover */
+                              padding: 15px; /* 15px padding */
+                              width: 230px; /* Set a specific width */
+                              text-decoration: none; /* Remove underline */
+                              font-size: 20px; /* Increase font size */
+                              color: white; /* White text color */
+                              border-radius: 0 5px 5px 0;
+                              margin-top: 300px /* Rounded corners on the top right and bottom right side */
+                            }
+
+                            #mySidenav a:hover {
+                              left: 0; /* On mouse-over, make the elements appear as they should */
+                            }
+
+                            /* The about link: 20px from the top with a green background */
+                            #about {
+                              top: 20px;
+                              background-color: #4CAF50;
+                            }
+
+                            #blog {
+                              top: 80px;
+                              background-color: #2196F3; /* Blue */
+                            }
+
+                            #projects {
+                              top: 140px;
+                              background-color: #f44336; /* Red */
+                            }
+
+                            #contact {
+                              top: 200px;
+                              background-color: #555 /* Light Black */
+
+                            }
+
+
+                            *{
+                                  margin: 0;
+                                  padding: 0;
+                              }
+                              .rate {
+                                  float: left;
+                                  height: 46px;
+                                  padding: 0 10px;
+                              }
+                              .rate:not(:checked) > input {
+                                  position:absolute;
+                                  top:-9999px;
+                              }
+                              .rate:not(:checked) > label {
+                                  float:right;
+                                  width:1em;
+                                  overflow:hidden;
+                                  white-space:nowrap;
+                                  cursor:pointer;
+                                  font-size:30px;
+                                  color:#ccc;
+                              }
+                              .rate:not(:checked) > label:before {
+                                  content: '★ ';
+                              }
+                              .rate > input:checked ~ label {
+                                  color: #ffc700;    
+                              }
+                              .rate:not(:checked) > label:hover,
+                              .rate:not(:checked) > label:hover ~ label {
+                                  color: #deb217;  
+                              }
+                              .rate > input:checked + label:hover,
+                              .rate > input:checked + label:hover ~ label,
+                              .rate > input:checked ~ label:hover,
+                              .rate > input:checked ~ label:hover ~ label,
+                              .rate > label:hover ~ input:checked ~ label {
+                                  color: #c59b08;
+                              }
+
+                               .simple-subscription-form {
+                    background: #0c3e5f;
+                    color: #fefefe;
+                    padding: 0rem;
+                    border-radius: 5px;
+                    width: 40%;
+                    float: left;
+                  }
+
+                  .simple-subscription-form .button {
+                    margin-bottom: 0;
+                    border-radius: 0 0 0 0;
+                  }
+
+
+
+
+
+
+
+
+
+
+                 
+
+
+
+
+
+
+
+
+                  
+
+
+
+
+
+
+
+                                           
+                                                    
+      </style>
+  
+  </head>
+
+  <body>
+
+
+        
+            <nav class="navbar navbar-dark bg-dark">
+              <a class="navbar-brand" href="#" style="font-family: 'Maven Pro', sans-serif;">
+                <img src="https://profilepicturesdp.com/wp-content/uploads/2018/06/awesome-gaming-profile-pictures-1.jpg" width="60" height="60" class="d-inline-block align-top" alt=""><strong>Gaming Shack</strong>
+
+                <img src="https://image.flaticon.com/icons/svg/554/554657.svg" style="width: 4rem;margin-left: 900px">
+
+                <!-- Button to open the modal login form -->
+                <button onclick="document.getElementById('id01').style.display='block'" style="background-color: #1C87D6;border-color: #1C87D6;color: #ffffff">Login</button>
+
+                <!-- The Modal -->
+                <div id="id01" class="modal">
+                  <span onclick="document.getElementById('id01').style.display='none'" 
+                class="close" title="Close Modal">&times;</span>
+
+                  <!-- Modal Content -->
+                  <form class="modal-content animate" action="/action_page.php">
+                      <script>
+                      // Get the modal
+                      var modal = document.getElementById('id01');
+
+                      // When the user clicks anywhere outside of the modal, close it
+                      window.onclick = function(event) {
+                        if (event.target == modal) {
+                          modal.style.display = "none";
+                        }
+                      }
+                      </script>
+                    <div class="container">
+                      <img src="https://image.flaticon.com/icons/svg/145/145843.svg" alt="Avatar" class="avatar" style="width: 8rem;margin-left: 160px">
+                    </div>
+
+                    <div class="container" style="font-family: 'Open Sans', sans-serif;">
+                      <label for="uname" style="color: #000000;margin-left: 14px"><b>Username</b></label>
+                      <div class="container">
+                      <input type="text" placeholder="Enter Username" name="uname" required style="width: 430px">
+                      </div>
+                      <br>
+                      <div class="container">
+
+                      <label for="psw" style="color: #000000"><b>Password</b></label>
+                    </div>
+                    <div class="container">
+                      <input type="password" placeholder="Enter Password" name="psw" required style="width: 430px">
+                    </div>
+                    <br>
+                    <div class="container">
+
+                      <button type="submit" style="color: #ffffff;background-color: #28BD53;width: 430px">Login</button>
+                    </div>
+                    <div class="container">
+                      <label style="color: #000000">
+                        <input type="checkbox" checked="checked" name="remember" > Remember me
+                      </label>
+                      </div>
+                    </div>
+
+                    <div class="container" style="background-color:#D3D3D3">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="margin-left: 12px;background-color: #F93D3D;color: #ffffff">Cancel</button>
+                      <span class="psw" style="color: #000000;margin-left: 190px">Forgot<a href="file:///Z:/GAMING%20SHACK%202019/Index/forgot_password.html" style="color: #000000">password?</a></span>
+                    </div>
+                  </form>
+                </div>
+
+                 <img src="https://image.flaticon.com/icons/svg/138/138659.svg" style="width: 3rem">
+
+                <button class="w3-button w3-round" style="width: 5rem;height:2.5rem;background-color: #1C87D6;border-color: #1C87D6;color: #ffffff;font-family: 'Maven Pro', sans-serif;margin-right: 140px" onclick="window.location.href = 'file:///Z:/GAMING%20SHACK%202019/Index/signup.html'">Sign Up</button>
+
+                
+                
+
+
+
+
+
+               
+              </a>
+
+
+
+              
+            </nav>
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F7201C">
+                
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+
+                    <li><a href="file:///Z:/GAMING%20SHACK%202019/Index/trial.html#"><img src='https://image.flaticon.com/icons/svg/69/69524.svg' style="width: 3rem;padding-right: 10px" /></a></li>
+                    <li class="nav-item active">
+                      <a class="nav-link"  href="file:///Z:/GAMING%20SHACK%202019/news.html" style="font-family: 'Hepta Slab', serif;"><strong>News</strong> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///Z:/GAMING%20SHACK%202019/reviews.html" style="font-family: 'Hepta Slab', serif;"><strong>Reviews</strong> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///Z:/GAMING%20SHACK%202019/hardware.html?name=&email=&message=&submit=Send#" style="font-family: 'Hepta Slab', serif;"><strong>Hardware</strong> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///Z:/GAMING%20SHACK%202019/indie.html" style="font-family: 'Hepta Slab', serif;"><strong>Indie</strong> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///Z:/GAMING%20SHACK%202019/bestof.html" style="font-family: 'Hepta Slab', serif;"><strong>Best Of</strong> <span class="sr-only">(current)</span></a>
+                    </li>
+
+
+
+                    
+                    
+                    
+                    
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #000000;color:#ffffff;border-color: #ffffff">Search
+                    </button>
+                  </form>
+                </div>
+         </nav>
+
+         <br>
+
+          
+              <div class="image-container">
+                <div class="text">INDIE</div>
+              </div>     
+              <br>
+              <br>
+
+
+               <!-- Card -->
+              <div class="container" >
+                <div class="card" style="width: 33rem;border-color: #000000">
+
+                  <!-- Card image -->
+                  <img class="card-img-top" src="https://st1.bgr.in/wp-content/uploads/2019/08/Road-to-stardom-PMSC-2019.jpg" alt="Card image cap">
+
+                  <!-- Card content -->
+                  
+
+                    
+                    <!-- Button -->
+                    <a href="https://www.bgr.in/gaming/pubg-mobile-star-challenge-content-creators-and-teams-participate-in-reality-show-road-to-stardom/" class="btn btn-primary" style="background-color: #000000;color: #E50000"><strong>PUBG Mobile Star Challenge: Content creators and teams participate in reality show Road to Stardom</strong></a>
+
+                  
+
+                </div>
+                <!-- Card -->
+
+                </div>
+                 <!-- Card -->
+              <div class="container" >
+                <div class="card" style="width: 33rem;border-color: #000000;margin-left: 580px;margin-top: -363px">
+
+                  <!-- Card image -->
+                  <img class="card-img-top" src="https://st1.bgr.in/wp-content/uploads/2019/08/PUBG-Mobile-India-Tour-2019-Jaipur-Finals.jpg" alt="Card image cap">
+
+                  <!-- Card content -->
+                  
+
+                    
+                    <!-- Button -->
+                    <a href="https://www.bgr.in/gaming/pubg-mobile-india-tour-2019-jaipur-finals-to-be-held-on-august-25/" class="btn btn-primary" style="background-color: #000000;color: #E50000"><strong>PUBG Mobile India Tour 2019: Jaipur Finals to be held on August 25</strong></a>
+
+                  
+
+                </div>
+                <!-- Card -->
+
+                </div>
+                <br>
+
+                <div class="container">
+                  
+                <!-- Card deck -->
+                <div class="card-deck" >
+
+                  <!-- Card -->
+                  <div class="card mb-4" style="background-color: #FF9A7A">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                      <img class="card-img-top" src="https://st1.bgr.in/wp-content/uploads/2019/08/scout-Team-SOUL-pubg-mobile.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                      <!--Title-->
+                      <h4 class="card-title">Gaming</h4>
+                      <!--Text-->
+                      <p class="card-text">PUBG Mobile: sc0utOP and Owais leave Team SOUL ahead of PUBG Mobile India Tour 2019</p>
+                      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href = 'https://www.bgr.in/gaming/pubg-mobile-sc0utop-and-owais-leave-team-soul-ahead-of-pubg-mobile-india-tour-2019/';" style="background-color: #3E5EFF;color: #ffffff">Read more</button>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <div class="card mb-4" style="background-color: #FF9A7A">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                      <img class="card-img-top" src="https://st1.bgr.in/wp-content/uploads/2019/08/India-Game-Developers-Conference.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                      <!--Title-->
+                      <h4 class="card-title">Summit</h4>
+                      <!--Text-->
+                      <p class="card-text">11th India Game Developers Conference scheduled for November 22</p>
+                      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href = 'https://www.bgr.in/gaming/11th-india-game-developers-conference-scheduled-for-november-22/';" style="background-color: #3E5EFF;color: #ffffff">Read more</button>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <div class="card mb-4" style="background-color: #FF9A7A">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                      <img class="card-img-top" src="https://english.cdn.zeenews.com/sites/default/files/2018/11/22/737957-asusa.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                      <!--Title-->
+                      <h4 class="card-title">Hardware</h4>
+                      <!--Text-->
+                      <p class="card-text">ASUS's TUF gaming laptops now in India</p>
+                      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href = 'https://zeenews.india.com/gaming/asuss-tuf-gaming-laptops-now-in-india-2157679.html';" style="background-color: #3E5EFF;color: #ffffff">Read more</button>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+
+                </div>
+                <!-- Card deck -->
+
+
+                </div>
+                <br>
+
+
+                 <div class="container">
+                  
+                <!-- Card deck -->
+                <div class="card-deck">
+
+                  <!-- Card -->
+                  <div class="card mb-4" style="background-color: #D77CFF">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                      <img class="card-img-top" src="https://glaws.in/wp-content/uploads/2019/03/dream-11-image.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                      <!--Title-->
+                      <h4 class="card-title">Application</h4>
+                      <!--Text-->
+                      <p class="card-text">Dream11 acquires official partner rights of BCCI</p>
+                      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href = 'https://glaws.in/2019/08/24/dream11-acquires-official-partner-rights-of-bcci/';" style="background-color: #3E5EFF;color: #ffffff">Read more</button>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <div class="card mb-4" style="background-color: #D77CFF">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                      <img class="card-img-top" src="https://static.digit.in/default/037a05590d5effe35dd45ab5de7e2c732b066d27.jpeg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                      <!--Title-->
+                      <h4 class="card-title">Tournament</h4>
+                      <!--Text-->
+                      <p class="card-text">NODWIN and SONYLIV to stream DOTA 2'S The International 2019 in regional languages</p>
+                      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href = 'https://www.digit.in/news/gaming/nodwin-and-sonyliv-to-stream-dota-2s-the-international-2019-49821.html';" style="background-color: #3E5EFF;color: #ffffff">Read more</button>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <div class="card mb-4" style="background-color: #D77CFF">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                      <img class="card-img-top" src="https://img.gurugamer.com/crop/620x324/2019/08/21/team-soul-0468.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                      <!--Title-->
+                      <h4 class="card-title">Gaming</h4>
+                      <!--Text-->
+                      <p class="card-text">PUBG News: Team X, TeamIND, Team SouL and top teams Around the World to Play PUBG Mobile International Scrims</p>
+                      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href = 'https://www.sportskeeda.com/esports/pubg-news-team-x-teamind-team-soul-and-top-teams-around-the-world-to-play-pubg-mobile-international-scrims'" style="background-color: #3E5EFF;color: #ffffff">Read more</button>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+
+                </div>
+                <!-- Card deck -->
+
+
+                </div>
+                <br>
+                <br>
+                
+                <br>
+
+                <div class="container">
+
+                <hr style="border-width: 2px;border-color: #C8C6C6;width: 1100px;margin-left: 0px">
+                <h2 style="color: #7DFF23;text-align: center;"><img src="https://image.flaticon.com/icons/svg/189/189001.svg" style="width: 3rem">    GIVE IT A TRY!   <img src="https://image.flaticon.com/icons/svg/189/189001.svg" style="width: 3rem;padding-left: 3px"></h2>
+                <hr style="border-width: 2px;border-color: #C8C6C6;width: 1100px;margin-left: 0px">
+                </div>
+                <br>
+
+
+
+                <div class="container" style="margin-left:380px">
+
+                <iframe src="https://funhtml5games.com?embed=flappy" style="width:800px;height:520px;" frameborder="0" scrolling="no"></iframe>
+                </div>
+
+                <br>
+                <div class="container">
+
+                <hr style="border-width: 2px;border-color: #C8C6C6;width: 1100px;margin-left: 0px">
+              </div>
+
+              <br>
+
+                 
+
+             
+
+                
+
+
+
+                
+
+
+               
+
+
+
+
+
+
+
+
+            
+
+                  
+                 
+
+
+                  
+
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+                
+
+
+                  
+                                      
+
+                 
+
+                 
+                    
+
+
+              
+
+              
+
+           
+           
+
+
+
+
+
+        
+          
+
+
+
+           
+
+                 
+                 
+
+        
+        
+
+        <div style="background-color:yellow;  height:20px;position: absolute;margin-top: 220px;width: 1580px">
+
+                <marquee direction="left" scrolldelay="50"  style="font-family: 'Source Sans Pro', sans-serif;margin-top: -5px;color: #000000">
+                        <strong>Terms & Conditions: 1.Publishing any website material in any other media is prohibited. 2.Selling, sublicensing and/or otherwise commercializing any website material is prohibited. 3.Using this website in any way that is or may be damaging to this website is prohibited. 4.Using this website to engage in any advertising or marketing is prohibited.</strong>
+                </marquee>
+                
+                
+        </div>
+
+        <br>
+
+
+        
+
+
+
+
+<footer class="footer" style="position: absolute;margin-top: 240px;width: 1580px;">
+    <div class="container" style="margin-top: 40px">
+        <div class="row" >
+            <div class="col-md-5"  style="color: #7BF925">
+                <h5><i class="fa fa-road"></i>GAMING SHACK &copy; 2019</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="file:///Z:/GAMING%20SHACK%202019/news.html#"   style="color: #ffffff">News</a></li>
+                            <li><a href="file:///Z:/GAMING%20SHACK%202019/reviews.html"   style="color: #ffffff">Reviews</a></li>
+                            <li><a href="file:///Z:/GAMING%20SHACK%202019/hardware.html?name=&email=&message=&submit=Send#"   style="color: #ffffff">Hardware</a></li>
+                            <li><a href="file:///Z:/GAMING%20SHACK%202019/indie.html"   style="color: #ffffff">Indie</a></li>
+                            <li><a href="file:///Z:/GAMING%20SHACK%202019/bestof.html"   style="color: #ffffff">Best Of</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="file:///Z:/GAMING%20SHACK%202019/about%20me.html"   style="color: #ffffff">About Me</a></li>
+                            <li><a href="file:///Z:/GAMING%20SHACK%202019/support.html"   style="color: #ffffff">Support</a></li>
+                            <li><a href=""   style="color: #ffffff">Legal Terms</a></li>
+                            <li><a href="file:///Z:/GAMING%20SHACK%202019/about.html"   style="color: #ffffff">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="nav">
+                    <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                </ul>
+                <br>
+            </div>
+            <div class="col-md-2" style="color: #7BF925">
+                <h5 class="text-md-right" style="margin-top: 10px">Contact Us</h5>
+                <hr>
+            </div>
+            <div class="col-md-5">
+                <form>
+                    <fieldset class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email" style="margin-top: 10px">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                    </fieldset>
+                    <fieldset class="form-group text-xs-right">
+                        <button type="button" sclass="btn btn-secondary-outline btn-lg" style="color: #ffffff;margin-top: 10px;border-color: #000CFF;background-color: #000CFF" >Send</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <ul class="social-icons" style="margin-right: 900px;">
+    <li><a href="https://www.facebook.com/anamitrabhar"><img src='https://image.flaticon.com/icons/svg/1409/1409943.svg' /></a></li>
+    <li><a href="http://linkedin.com/in/anamitra-bhar-46701516b"><img src='https://image.flaticon.com/icons/svg/1409/1409945.svg' /></a></li>
+    <li><a href="https://www.instagram.com/annaaa_4761/"><img src='https://www.flaticon.com/premium-icon/icons/svg/739/739142.svg' /></a></li>
+</ul>
+</footer>
+
+
+ <div class="simple-subscription-form" style="width: 700px;padding-bottom: 20px;padding-top: 5px;margin-left: 400px;padding-left: 10px">
+                <form>
+                  <h4>  <img src="https://image.flaticon.com/icons/svg/129/129517.svg" style="width: 3rem">         GAMING SHACK NEWSLETTER</h4>
+
+                  <p>Sign up to get the best content of the week, and great gaming deals, as picked by the editors.</p>
+                  <div class="input-group">
+                    <span class="input-group-label">
+                      
+                    </span>
+                    <input class="input-group-field" type="email" placeholder="Your Email Address " required style="width: 400px">
+                    <button class="button" style="background-color: #0051FF;color: #ffffff;border-color: #0051FF ">Sign Up</button>
+
+                    <h6 style="font-size: 10px">No spam, we promise. You can unsubscribe at any time and we'll never share your details without your permission.</h6>
+
+                </form>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+          
+
+      
+
+
+ 
+
+
+
+
+
+
+        
+
+
+    
+
+
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
